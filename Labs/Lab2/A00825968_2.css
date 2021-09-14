@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 20px;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.presentation--name{
+    font-size: 5rem;
+}
+
+.presentation--major{
+    padding-left: 250px;
+    font-size: 3rem;
+}
+
+.presentation--hobbies{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    padding-left: 300px;
+}
+
+.presentation--hobbies li{
+    list-style: none;
+    
+}
