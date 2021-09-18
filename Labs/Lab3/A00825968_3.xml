@@ -1,0 +1,88 @@
+<!--
+Instructions:
+
+Create a representation with XML & XSL to showcase an inventory (list) of your favorite books, series, movies.
+
+List at least 5 books/series/albums and each one with at least 3 characters/songs
+
+Create an xsl file to modify the look of information with the following description:
+
+    Title Must have a font size of 14px, Bold, in any Blue color
+    Description/Summary should be in Italics and gray over a white background with a black dotted margin.
+    Year should be dark red aligned to the right side of the screen.
+    Must list all characters / songs
+
+Create an XML file to store the category and its items containing the following:
+
+    Title – Name of the item
+    Summary – Brief description of the item
+    Year – where it was released/published
+    Author / Director – Name of the Director or Author
+    Characters – This one must be a collection of Character
+    Character – This entity has a Name & Description (brief description of who he is or his skills, role etc)
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="A00825968_3.xsl"?>
+<albums>
+
+<album>
+<title>AM</title>
+<summary>The first album I heard of this band</summary>
+<year>2013</year>
+<author>Arctic Monkeys</author>
+<songs>
+    <s1>Do I Wanna Know?</s1>
+    <s2>R U Mine?</s2>
+    <s3>Arabella</s3>
+</songs>
+</album>
+
+<album>
+<title>Favourite Worst Nightmare</title>
+<summary>The second album of the band</summary>
+<year>2007</year>
+<author>Arctic Monkeys</author>
+<songs>
+    <s1>Fluorescent Adolescent</s1>
+    <s2>Do Me a Favour</s2>
+    <s3>505</s3>
+</songs>
+</album>
+
+<album>
+<title>(What's the Story) Morning Glory?</title>
+<summary>The second album of the band</summary>
+<year>1996</year>
+<author>Oasis</author>
+<songs>
+    <s1>Don't Look Back In Anger</s1>
+    <s2>Wonderwall</s2>
+    <s3>Champagne Supernova</s3>
+</songs>
+</album>
+
+<album>
+<title>Is This It</title>
+<summary>My favourite album of the band</summary>
+<year>2001</year>
+<author>The Strokes</author>
+<songs>
+    <s1>Hard to Explain</s1>
+    <s2>Is This It</s2>
+    <s3>Alone, Togather</s3>
+</songs>
+</album>
+
+<album>
+<title>The Black Parade</title>
+<summary>An Album to hear when you are sad</summary>
+<year>2006</year>
+<author>My Chemical Romance</author>
+<songs>
+    <s1>Welcome to The Black Parade</s1>
+    <s2>I don´t Love You</s2>
+    <s3>Famous Last Words</s3>
+</songs>
+</album>
+
+</albums>
